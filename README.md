@@ -31,13 +31,26 @@ ReLU + MaxPool	Again 2x2
 FC1	Fully connected layer (64×8×8 → 128 neurons)
 FC2	Final classification layer (128 → 10 classes)
 
-🏃‍♂️ Training Details:
-Loss Function: CrossEntropyLoss (suitable for multi-class classification)
-
-Optimizer: Adam (learning rate = 0.001)
-
 Epochs: 10
 
 Batch Size: 64
 
 Metrics: Accuracy on both training and test datasets
+
+
+🏃‍♂️ Training Details:
+Loss Function: CrossEntropyLoss (suitable for multi-class classification)
+![Figure_1](https://github.com/user-attachments/assets/5837b0c3-2c72-48cd-b03d-730a89813b58)
+
+📈 Output Results:
+Training and validation accuracy printed for each epoch.
+
+Final test accuracy reported (usually around 70–75% after 10 epochs).
+
+Graph of Accuracy vs Epochs is shown using matplotlib.
+
+📊 Visual Output:
+A line chart comparing training and validation accuracy across epochs.
+
+Helps detect underfitting, overfitting, or good generalization.
+Optimizer: Adam (learning rate = 0.001)
