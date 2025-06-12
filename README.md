@@ -43,7 +43,8 @@ Loss Function: CrossEntropyLoss (suitable for multi-class classification)
 ![Figure_1](https://github.com/user-attachments/assets/5837b0c3-2c72-48cd-b03d-730a89813b58)
 
 📈 Output Results:
-Training and validation accuracy printed for each epoch.
+Training and validation accuracy printed for each epoch,
+![image](https://github.com/user-attachments/assets/a8a63275-385a-46ac-adee-ae0fd4eba12e)
 
 Final test accuracy reported (usually around 70–75% after 10 epochs).
 
